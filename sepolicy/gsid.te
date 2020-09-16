@@ -1,1 +1,1 @@
-allow gsid mediaserver_exec:file { read };
+#allow gsid mediaserver_exec:file { read };

@@ -1,1 +1,1 @@
-allow system_suspend mediaserver_exec:file { read };
+#allow system_suspend mediaserver_exec:file { read };

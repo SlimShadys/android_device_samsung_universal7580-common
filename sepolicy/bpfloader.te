@@ -1,1 +1,1 @@
-allow bpfloader mediaserver_exec:file { read };
+#allow bpfloader mediaserver_exec:file { read };

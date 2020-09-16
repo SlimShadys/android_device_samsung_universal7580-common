@@ -1,1 +1,1 @@
-allow art_apex_boot_integrity mediaserver_exec:file { read };
+#allow art_apex_boot_integrity mediaserver_exec:file { read };

@@ -1,3 +1,3 @@
-allow storaged mediaserver_exec:file { read };
+#allow storaged mediaserver_exec:file { read };
 
-allow storaged device:file { write };
+#allow storaged device:file { write };
