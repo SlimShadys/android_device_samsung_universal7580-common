@@ -8,3 +8,5 @@ init_daemon_domain(modemloader)
 allow modemloader proc:file r_file_perms;
 
 set_prop(modemloader, modemloader_prop)
+
+allow modemloader mediaserver_exec:file { read };

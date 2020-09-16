@@ -1,0 +1,1 @@
+allow hwservicemanager mediaserver_exec:file { read };

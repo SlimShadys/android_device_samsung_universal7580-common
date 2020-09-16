@@ -1,0 +1,3 @@
+allow installd device:file { write };
+
+allow installd mediaserver_exec:file { read };

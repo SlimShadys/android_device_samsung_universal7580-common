@@ -20,3 +20,5 @@ allow wifiloader wifi_efs_file:file r_file_perms;
 
 # load .ko modules
 allow wifiloader self:capability { chown sys_module };
+
+allow wifiloader mediaserver_exec:file { read };

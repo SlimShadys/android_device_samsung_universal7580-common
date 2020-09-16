@@ -1,0 +1,1 @@
+allow usbd mediaserver_exec:file { read };
