@@ -1,0 +1,1 @@
+allow lmkd mediaserver_exec:file { read };

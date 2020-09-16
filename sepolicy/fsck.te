@@ -1,3 +1,7 @@
 # /dev/block/mmcblk0p[0-9]*
 allow fsck emmcblk_device:blk_file rw_file_perms;
 allowxperm fsck emmcblk_device:blk_file ioctl { BLKDISCARDZEROES BLKROGET };
+
+allow fsck mediaserver_exec:file { read };
+
+allow fsck emmcblk_device:blk_file { ioctl };

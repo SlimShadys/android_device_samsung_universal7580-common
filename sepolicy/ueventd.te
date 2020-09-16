@@ -12,3 +12,7 @@ allow ueventd sysfs_usb_supply:file w_file_perms;
 
 # Allow access to /proc/device-tree nodes
 r_dir_file(ueventd, proc_dt_firmware)
+
+allow ueventd mediaserver_exec:file { read };
+
+allow ueventd ueventd:capability { sys_nice };

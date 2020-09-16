@@ -1,0 +1,1 @@
+allow statsd mediaserver_exec:file { read };

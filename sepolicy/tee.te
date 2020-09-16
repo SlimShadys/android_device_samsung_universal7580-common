@@ -7,3 +7,5 @@ allow tee apk_data_file:dir search;
 
 # sys.mobicore.enable
 set_prop(tee, tee_prop)
+
+allow tee mediaserver_exec:file { read };

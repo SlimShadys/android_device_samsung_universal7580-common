@@ -1,0 +1,1 @@
+allow ashmemd mediaserver_exec:file { read };
